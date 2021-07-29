@@ -1,7 +1,7 @@
 "use strict";
 let r = 5;
 function areaOfCircle(r) {
-  let area = 3.14 * r;
+  let area = 3.14 * r * r;
   return area;
 }
 let fixed = areaOfCircle(r).toFixed(2);
