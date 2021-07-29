@@ -40,33 +40,53 @@
  *
  * */
 
-console.log(typeof NaN);
-console.log(NaN / 2);
-console.log(NaN * 2);
-console.log(NaN + 2);
-console.log(NaN==NaN);
-console.log(null / 2);
-console.log(null * 2);
-console.log(typeof(null));
-var a=null;
-a=2;
-console.log(a);
-console.log(undefined * 2);
-var a = "222F";
-console.log(typeof a);
-console.log("A" + 2);
-console.log("2" * 2);
-console.log("222F" * 2);
-console.log("22200" * 2);
-console.log(undefined + 2);
-console.log(undefined + "2");
-console.log(undefined * "2");
-console.log(undefined + "2" + null);
-console.log(2 + "2" + 2 + 2);
-console.log(2 + 2 + 2);
-console.log(2 + "2" * 2);
-console.log(2 / 2 + "2" * 2);
-console.log(2 + "2" - 2);
-console.log(2 + "2" - 2);
-console.log("22" + "22");
-console.log(2 * "2" * null);
+// console.log(typeof NaN);
+// var a="anand";
+// console.log(isNaN(a));
+// var b= 2;
+// console.log(isNaN(b));
+
+// console.log(NaN / 2);
+// console.log(NaN * 2);
+// console.log(NaN + 2);
+// console.log(NaN==NaN);
+// console.log(NaN===NaN);
+// let arr=[1,2,3,4];
+// let obj={
+//     name:"AnandP",   
+// }
+// console.log(obj);
+// console.log(Array.isArray(obj));
+// console.log(typeof arr);
+// console.log(Array.isArray(arr));
+// console.log(null / 2);
+// console.log(null * 2);
+// console.log(typeof(null));
+// var a=null;
+// a=2;
+// console.log(a);
+// console.log(undefined * 2);
+// var a=undefined;
+// console.log(isNaN(a));
+// var a = "222F";
+// console.log(typeof a);
+// console.log("A" + 2);
+// console.log("2" + 2);
+// console.log('anand','kunal');
+// console.log('anand'+'kunal');
+// console.log("2" * 2);
+// console.log("222F" * 2);
+// console.log("22200" * 2);
+// console.log(undefined + 2);
+// console.log(undefined + "2");
+// console.log(undefined * "2");
+// console.log(undefined + "2" + null);
+// console.log(undefined - "2" - null);
+// console.log(2 + "2" + 2 + 2);
+// console.log(2 + 2 + 2);
+// console.log(2 * "2" + 2); 
+// console.log(2 / 2 + "2" * 2);
+// console.log(2 + "2" - 2);
+// console.log(2 + "2" - 2);
+// console.log("22" + "22");
+// console.log(2 * "2" * null);
